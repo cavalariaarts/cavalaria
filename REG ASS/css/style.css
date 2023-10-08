@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color: #676a81;
+	
 	background: #fff;
     max-width:1920px;
     margin:0 auto;
@@ -119,7 +119,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -195,6 +195,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-position: center;
     height:890px;
 } 
+.welcome-her{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:890px;
+} 
 .welcome-hero:before{
     position:absolute;
     content: " ";
@@ -204,16 +214,24 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     width:100%;
     height:100%;
 }
+@font-face {
+    font-family: mon;
+    src: url(Montserrat-Bold.ttf);
+}
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
-    font-size: 34px;
+    color: #ffffff;
+    font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
+    margin-top: -100px;
+    font-family: mon;
 }
-.header-text h2 span {color: #d92cf9;}
+
+.header-text h2 span {color: #ffffff;
+font-size: 40px;}
 .header-text p {
     color: #fff;
     font-size: 20px;
