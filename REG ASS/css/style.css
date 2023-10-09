@@ -229,7 +229,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-top: -100px;
     font-family: mon;
 }
-
+.header-text a{
+    margin-top: 50PX;
+}
 .header-text h2 span {color: #ffffff;
 font-size: 40px;}
 .header-text p {
