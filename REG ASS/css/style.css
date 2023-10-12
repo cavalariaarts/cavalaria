@@ -218,6 +218,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-family: mon;
     src: url(Montserrat-Bold.ttf);
 }
+a{
+    text-decoration: none;
+}
 
 /*.header-text-area*/
 .header-text h2 {
