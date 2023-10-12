@@ -218,9 +218,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-family: mon;
     src: url(Montserrat-Bold.ttf);
 }
-a{
-    text-decoration: none;
-}
 
 /*.header-text-area*/
 .header-text h2 {
@@ -392,9 +389,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
-}
+
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
